@@ -1,0 +1,31 @@
+---
+BasedOnStyle: Google                              # Based on Google style
+
+AccessModifierOffset: -4
+AlignAfterOpenBracket: AlwaysBreak                # Always break after an open bracket
+AllowAllConstructorInitializersOnNextLine: false  # Do not allow all constructor initializers on the next line
+AllowAllParametersOfDeclarationOnNextLine: false  # Do not allow all parameters of declaration on the next line
+AlignConsecutiveAssignments: true
+AlignConsecutiveBitFields: false
+AlignConsecutiveDeclarations: true                # Align consecutive declarations
+AlignConsecutiveMacros: true                      # Align consecutive macros
+AllowShortCaseLabelsOnASingleLine: true           # Allow short case labels on a single line
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: Never        # Do not allow short if statements on a single line
+AllowShortLoopsOnASingleLine: true                # Allow short loops on a single line
+BreakBeforeBraces: Allman                         # Break before braces in Allman style
+BinPackArguments: false                           # Do not bin-pack arguments
+BinPackParameters: false                          # Do not bin-pack parameters
+Cpp11BracedListStyle: false                       # Do not use Cpp11 braced list style
+ColumnLimit: 160                                  # Column limit is 160
+IndentWidth: 4
+InsertNewlineAtEOF: true
+NamespaceIndentation: All                         # Indent all namespaces
+SpaceAfterTemplateKeyword: false                  # Do not add space after template keyword
+SpaceBeforeCtorInitializerColon: true             # Add space before constructor initializer colon
+SpaceBeforeInheritanceColon: true                 # Add space before inheritance colon
+SpaceBeforeParens: ControlStatements              # Add space before parentheses in control statements
+SpaceBeforeRangeBasedForLoopColon: true           # Add space before colon in range-based for loop
+SpaceInEmptyBlock: true                           # Add space in empty block
+Standard: Latest                                  # Use the latest standard
+SortIncludes: false                               # Do not sort includes
